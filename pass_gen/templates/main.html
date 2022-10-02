@@ -1,0 +1,18 @@
+{% extends 'layout.html'%} 
+
+{% block content %}
+
+    <div class='col-md-4 offset-md-4'>
+
+        <form action="{% url 'pass_gen' %}" class="card card-body p-5" style="background: #121212;">
+
+            <h1 class="h4"> Password Generator </h1>
+
+            <label for="length">Select the length of the password: </label>
+
+        </form>
+        
+    </div>
+
+
+{% endblock %}
